@@ -1,0 +1,16 @@
+name: uiuc-rag
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - requests
+  - beautifulsoup4
+  - lxml
+  - faiss-cpu
+  - jupyter
+  - ipykernel
+  - pip:
+      - sentence-transformers
+      - openai>=1.0.0

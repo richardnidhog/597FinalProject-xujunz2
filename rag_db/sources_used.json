@@ -1,0 +1,20 @@
+[
+  {
+    "college": "LAS",
+    "name": "College of Liberal Arts & Sciences - Degree Requirements",
+    "url": "https://las.illinois.edu/academics/requirements",
+    "local_path": "./local_html\\las__3940ff5aae.html"
+  },
+  {
+    "college": "Engineering",
+    "name": "Grainger College of Engineering - Degree Requirements",
+    "url": "https://advising.grainger.illinois.edu/degree-requirements",
+    "local_path": "./local_html\\engineering__22b0e1ea10.html"
+  },
+  {
+    "college": "iSchool",
+    "name": "iSchool - Degree Requirements",
+    "url": "https://ischool.illinois.edu/academics/undergraduate/bs-information-sciences/coursework",
+    "local_path": "./local_html\\ischool__0fbcd211ff.html"
+  }
+]
