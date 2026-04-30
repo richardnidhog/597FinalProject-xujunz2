@@ -14,3 +14,5 @@ dependencies:
   - pip:
       - sentence-transformers
       - openai>=1.0.0
+      - tavily-python
+      - anthropic
