@@ -1,27 +1,5 @@
 """
 uiuc_policy_agent.py — ReAct agent for UIUC degree requirement queries.
-
-Tools
------
-  query_local_index  semantic search over the pre-built FAISS index
-  search_web         live Tavily web search  (requires TAVILY_API_KEY)
-  fetch_and_extract  fetch a URL and extract its main text
-  verify_claim       LLM-based claim verification against source text
-
-Backends
---------
-  openai   gpt-5.4-mini        (requires OPENAI_API_KEY)
-  claude   claude-opus-4-6     (requires ANTHROPIC_API_KEY)
-
-Run
----
-  python uiuc_policy_agent.py                   # choose backend interactively
-  python uiuc_policy_agent.py --backend openai
-  python uiuc_policy_agent.py --backend claude
-
-Prerequisites
--------------
-  The FAISS index must already exist in ./rag_db/ (run the notebook first).
 """
 
 import argparse
@@ -49,7 +27,7 @@ DB_DIR = "./rag_db"
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 OPENAI_MODEL = "gpt-5.4-mini"
 CLAUDE_MODEL = "claude-opus-4-6"
-MAX_TOOL_ROUNDS = 8
+MAX_TOOL_ROUNDS = 20  # Max iterations of tool calls before giving up and returning a fallback message.
 
 # Common types
 
@@ -169,8 +147,6 @@ class ClaudeBackend:
     def serialize_assistant_turn(
         self, content: str | None, tool_calls: list[ToolCall]
     ) -> dict[str, Any]:
-        # Return ALL raw content blocks (text + thinking + tool_use) verbatim
-        # so the API receives thinking blocks with their original signatures.
         return {"role": "assistant", "content": self._last_content}
 
     def serialize_tool_results(
@@ -198,7 +174,6 @@ class ClaudeBackend:
         return "{}"
 
 
-# Module-level reference so verify_claim can use whichever backend is active.
 _active_backend: OpenAIBackend | ClaudeBackend | None = None
 
 
@@ -316,7 +291,6 @@ def _dispatch(name: str, args: dict[str, Any]) -> str:
 
 
 # Tool schemas
-# Single source of truth; generate both OpenAI and Claude formats from it.
 
 _TOOL_DEFS = [
     {

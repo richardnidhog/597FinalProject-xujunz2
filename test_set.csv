@@ -1,0 +1,101 @@
+id,category,category_label,college,question,agent_answer,gpt_answer,reference_answer,note
+1,1,DB-Answerable,Engineering,How many total credit hours are required to earn a degree in the Grainger College of Engineering?,128 credit hours,128 total credit hours,128 credit hours,"Notes on gpt_answer: Testing was conducted using the GPT-5.4 model. All settings were left at their defaults, and the web search feature was disabled."
+2,1,DB-Answerable,Engineering,What is the minimum credit hour requirement for a dual degree in the Grainger College of Engineering?,158 credit hours,144 total credit hours,158 credit hours,
+3,1,DB-Answerable,Engineering,Which required orientation course do Engineering transfer students take instead of ENG 100?,Transfer students into the Grainger College of Engineering take?ENG 300?instead of ENG 100.,Engineering transfer students take ENG 300: Engineering Transfer Orientation instead of ENG 100.,ENG 300,
+4,1,DB-Answerable,iSchool,How many total credit hours are required for the BS in Information Sciences (BSIS) degree at the iSchool?,123 hours,The BS in Information Sciences (BSIS) degree at the iSchool requires a minimum of 120 total credit hours.,123 credit hours,
+5,1,DB-Answerable,iSchool,How many credit hours of iSchool electives must BSIS students complete?,BSIS students must complete?30 credit hours of iSchool electives.,BSIS students must complete 12 credit hours of iSchool electives.,30 credit hours,
+6,2,Default College,LAS,How many total credit hours must LAS students complete to earn a bachelor's degree?,120 semester hours,120 total credit hours,120 credit hours,
+7,2,Default College,LAS,What is the minimum cumulative GPA required for LAS students to graduate?,2.00 (a C average),2.0 cumulative GPA,2.0 cumulative GPA and 2.0 GPA in the major,
+8,2,Default College,LAS,What are the specific distribution areas that make up the LAS General Education requirement?,"Humanities & Arts, Social & Behavioral Sciences, Natural Sciences & Technology,  Quantitative Reasoning I,Quantitative Reasoning II,Composition I, Advanced Composition (ACP), Non-Primary Language","Composition I,Advanced Composition,Humanities & the Arts,Social & Behavioral Sciences,Natural Sciences & Technology,Quantitative Reasoning I,Quantitative Reasoning II,Cultural Studies","Natural Sciences & Technology, Social & Behavioral Sciences, Humanities & the Arts, and Quantitative Reasoning, Composition/Writing, Cultural Studies, Foreign Language",
+9,2,Default College,LAS,How many semesters of a foreign language are typically required to satisfy the LAS Language Requirement?,The standard requirement is?4 semesters (two years)?of college-level study in a?single non-primary language.,"Typically, 3 semesters of college-level foreign language are required",satisfactorily at the fourth-semester level in a proficiency examination,
+10,2,Default College,LAS,What is the minimum number of credit hours at the 300-level or above required for graduation in LAS?,At least?12 credit hours?at the?300- or 400-level,A minimum of 40 credit hours in courses at the 300-level or above is required for LAS graduation.,At least 40 hours must be in courses numbered 300 or above,
+11,2,Default College,LAS,What is the Advanced Composition requirement for LAS students and which courses satisfy it?,All LAS students?are required to complete an?Advanced Composition?course after completing the?Composition I?requirement.,LAS students must complete one course in Advanced Composition beyond Composition I.,Students must complete one approved Advanced Composition course (3 credit hours) after completing Composition I,
+12,2,Default College,Engineering,What is the minimum Technical GPA required for Grainger Engineering students to remain in good academic standing?,The minimum Technical GPA required to remain in good academic standing is 2.0.,The minimum Technical GPA is 2.0,2.0 Technical GPA,
+13,2,Default College,Engineering,I have completed college courses at other institutions; do I need to transfer credits?,"Yes, if you've completed college courses at other institutions and want those credits to count toward your UIUC degree, you will generally need to have them?evaluated and transferred.","Yes 〞 if you＊ve taken college courses elsewhere, you must report that coursework and have official transcripts sent to UIUC.",Students are responsible for disclosing and providing complete official transcripts for all higher education courses completed outside the University of Illinois system.,
+14,2,Default College,Engineering,What types of courses are not accepted as part of the general education curriculum for students at the at the Grainger Engineering?,Credit/No Credit courses; AP credit for Advanced Composition; Engineering/technical courses as gen ed electives; Unapproved transfer courses for Advanced Composition,"Grainger generally does not accept these as Gen Ed:Skill/activity/performance courses˙Remedial or basic-skills courses˙Highly technical, professional, or vocational courses","Courses whose titles include ※Individual Study§ or ※Independent Research,§ as well as various other types of courses.",
+15,2,Default College,Engineering,What is the residency requirement for graduating from the Grainger College of Engineering (minimum hours completed at UIUC)?,At least?45 semester hours,30 credit hours,At least 45 credit hours must be completed in residence at UIUC,
+16,2,Default College,Engineering,Once a Grainger Engineering student has completed degree requirements and eight semesters what is the college's expectation?,Students are expected to graduate.,Grainger＊s expectation is that the student will graduate at that point,Students are expected to graduate; continued enrollment requires special approval,
+17,2,Default College,iSchool,What are the named pathway concentrations available within the BSIS program at the iSchool?,"Here are the six named pathway concentrations within the BSIS (Bachelor of Science in Information Sciences) program at the iSchool:
+# Pathway Focus
+1 Information and Culture Critical, social, and cultural contexts of information science
+2 Data and Society Impact of data in governance, business, culture, democracy, and policy
+3 Data Analytics / Data Science The data life cycle 〞 analyzing, interpreting, explaining, qualifying, and contextualizing data at scale
+4 Human-Computer Interaction (HCI) / User Experience (UX) Building useful and usable information systems
+5 Narrative Design and Game Studies The power of narrative in human society, storytelling tools and techniques, with applications in business, publishing, youth services, curation, and the game industry
+6 Galleries, Libraries, Archives and Museums Cultural heritage and memory institutions 〞 collection, organization, preservation, curation, and dissemination of information
+Key notes
+Students are not locked into one pathway. They may take electives within a single pathway or across multiple pathways.
+Each pathway lists sample courses as well as complementing disciplines (minors, dual-degrees, or certificates) to broaden the degree.","The BSIS uses pathways rather than formal concentrations. The named pathways are commonly listed as:
+
+Data Science & Analytics
+User Experience & Design
+Information Management, Policy & Ethics
+Information, Culture & Society
+Pathway names can vary by catalog year.","Pathways include Data & Information Systems, Human-Computer Interaction, Law & Policy, Youth & Community Informatics, and others",
+18,2,Default College,iSchool,What are the official learning outcomes of the BSIS degree at the iSchool?,"Goals
+Equip students to be leaders in a knowledge society and innovators in a knowledge economy.
+Educate students for known, emerging, and currently unforeseeable careers in information sciences.
+Provide an interdisciplinary education where studies in fundamentals of information sciences and in application areas are fully integrated.
+Ensure that various upper-division elective pathways of the major share a common core of information sciences knowledge.
+Provide a program with enough flexibility to facilitate transfers into the major at the sophomore level, transfers across colleges at the sophomore and junior level, and transfers from two-year colleges.
+Since information sciences is a rapidly developing field, offer a flexible program that responds quickly to new needs and opportunities, and to new findings and approaches in the information sciences.
+Prepare interested students for graduate study in information sciences and related fields.
+Objectives (based on objectives of the required courses)
+Understand relationships among people, information, and technology.
+Understand the history, theory, philosophy, and methodologies of the field of information sciences.
+Apply various approaches to research in the information sciences, including social science methods, data and text mining, digital humanities, historical approaches, and others.
+Apply critical analytical skills to information issues.
+Understand fundamental mathematical and programming tools for solving problems of information modeling, expression, and transformation.","The BSIS learning outcomes focus on graduates being able to:
+Understand core concepts of information science
+Analyze how people seek, use, organize, and share information
+Evaluate and use information and data effectively
+Apply technology and information tools to solve problems
+Design or assess information systems/services with a user-centered perspective
+Recognize ethical, social, cultural, and policy issues surrounding information
+Communicate clearly and work effectively with others
+If you want, I can also give you the official catalog wording as closely as possible.",Listed on the iSchool learning outcomes page; covers information literacy,
+19,2,Default College,iSchool,What are the credit requirements for the Bachelor of Science in Information Science and Data Science at iSchool?,fallback: I reached the tool-use limit without a conclusive answer. Please try a more specific question.,The BS in Information Sciences + Data Science requires 120 total credit hours for graduation.,123 credit hours,"The program attempts to find URLs containing the ※IS+DS§ tag, but in practice, when iSchool sets up the URL for this major, it often includes only ※Data Science.§ This causes the program to exceed the search limit, resulting in a fallback."
+20,2,Default College,iSchool,Do credits earned by MSIM students from other colleges count toward graduation requirements and is there a cap on the number of credits?,12 hours,12 credit hours.,12 credits allowed,
+21,3,Other Colleges/Topics,Gies College of Business,How many total credit hours are required to earn a BS in Accountancy at the Gies College of Business at UIUC?,124 total credit hours,124 total credit hours,124 credit hours,
+22,3,Other Colleges/Topics,Gies College of Business,What GPA must students maintain to remain in good academic standing in the Gies College of Business?,2.0?on a 4.0 scale,2.0 cumulative GPA,2.0 cumulative GPA; some majors require higher,
+23,3,Other Colleges/Topics,Gies College of Business,What are the core business foundation courses that all Gies undergraduates must complete regardless of major?,"Area Course(s)
+Accounting ACCY 200 每 Fundamentals of Accounting
+Accounting ACCY 201 每 Accounting and Accountancy I
+Economics ECON 102 每 Microeconomic Principles
+Economics ECON 103 每 Macroeconomic Principles
+Finance FIN 221 每 Corporate Finance
+Management BADM 300 每 The Legal Environment of Business
+Management BADM 310 每 Management & Organizational Behavior
+Marketing BADM 320 每 Principles of Marketing
+Operations BADM 275 每 Operations Management
+Statistics STAT 212 每 Biostatistics or ECON 202 or equivalent
+Information Systems BADM 211 每 Business Analytics I
+Strategy BADM 449 每 Business Policy and Strategy (capstone)
+Business Communication BADM 314 每 Int'l Business Communication or equivalent","All Gies undergraduates complete a shared business core/foundation that generally includes:
+BUS 101 and BUS 201
+ACCY 201 and ACCY 202
+BADM 210
+BADM 275
+BADM 300
+BADM 310
+BADM 320
+FIN 221","BUS 101, 201, 301, 401; ACCY 201, 202; BADM 210, 211, 275, 300, 310, 320, 449; FIN 221; CS 105; CMN 101; ECON 102, 103; BUS Core Math",
+24,3,Other Colleges/Topics,College of Education,What is the minimum GPA required for admission to the Teacher Education Program at UIUC?,2.50?on a 4.0 scale,2.5 cumulative GPA,2.5 cumulative GPA minimum,
+25,3,Other Colleges/Topics,College of Education,What Illinois state licensure exams must UIUC Education students?,"Illinois teacher candidates typically must pass exams administered through the Illinois Licensure Testing System (ILTS), which replaced the older ICTS exams.",UIUC Education students typically must pass the applicable Illinois content-area licensure exam(s) for their teaching field before student teaching.,Illinois Licensure Testing System (ILTS) subject-area test and the edTPA performance assessment,
+26,3,Other Colleges/Topics,College of Media,What are the required major courses for a Journalism major in the College of Media at UIUC?,"Required Core Courses
+Course Title Hours
+JOUR 200 Introduction to Journalism 3
+JOUR 210 Newsgathering Across Platforms 4
+JOUR 215 Multimedia Reporting 4","The Journalism major requires a core set of JOUR courses plus approved electives. The core generally includes:
+Introduction to Journalism
+News Gathering Across Platforms
+Multimedia Reporting
+Visual/interactive journalism
+Journalism ethics/diversity
+Media law
+Advanced reporting/editing or capstone/newsroom experience
+For the exact current course numbers/titles, the official source is the UIUC catalog page for the BS in Journalism.","Includes JOUR 200, JOUR 210, JOUR 215",
+27,3,Other Colleges/Topics,College of Fine & Applied Arts,What are the portfolio or audition requirements for the Architecture program in the College of Fine & Applied Arts at UIUC?,No portfolio is required for freshman applicants to the undergraduate Architecture program. This distinguishes UIUC Architecture from many peer programs.,"For Architecture at UIUC (FAA), no portfolio or audition is required for undergraduate admission.",No portfolio required for freshman admission; portfolio review required for internal transfer into upper-division architecture,
+28,3,Other Colleges/Topics,ACES (Agricultural Consumer & Environmental Sciences),How many credit hours are required to earn a BS in Food Science at UIUC through the College of ACES?,126 credit hours,126 credit hours,126 credit hours,
+29,3,Other Colleges/Topics,Campus-Wide,What are the requirements for join the James Scholar program?,"Every college has different GPA thresholds: LAS requires 3.30, Engineering requires 3.50, and the iSchool requires 3.50 (plus Dean's List for self-nomination).Most incoming freshmen are invited automatically 〞 there's no separate application at the time of admission.Current students can self-nominate if they meet the criteria, with application windows varying by college.",It varies by college/program 〞 there is no single campuswide James Scholar standard.In general:Becoming a James Scholar: usually requires invitation or application based on strong academic performance.Remaining a James Scholar: usually requires maintaining a minimum GPA and completing honors/enrichment requirements set by the college.,,
+30,3,Other Colleges/Topics,Campus-Wide,What are the eligibility requirements to graduate with Latin Honors (cum laude) at UIUC?,"Per the UIUC Student Code (∫ 3-405), each college sets its own conditions for graduating with Latin Honors. Based on December 2024每August 2025 LAS graduates, the following GPA thresholds apply for graduation between December 2025 and August 2026: Honor Class Percentile Minimum GPA Summa Cum Laude Top 3% 4.00 Magna Cum Laude Top 7% 3.98 Cum Laude Top 12% 3.94","There is no single campuswide UIUC requirement for cum laude. Latin Honors are awarded by individual colleges, and eligibility usually depends on:a minimum number of graded UIUC hours completed in residence, and a cumulative GPA high enough to meet the college＊s cum laude cutoff.So the exact requirements vary by college.",Cum laude: top 20% of college; magna cum laude: top 10%; summa cum laude: top 5%; based on final cumulative GPA. Variations exist among colleges.,
